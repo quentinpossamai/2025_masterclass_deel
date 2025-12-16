@@ -1,13 +1,13 @@
-*.bundle.*
-lib/
-node_modules/
-*.egg-info/
-.ipynb_checkpoints
-*.tsbuildinfo
+# Python-generated files
 __pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 
-# VSCode
-.vscode
+# Virtual environments
+.venv
 
-# Solution
-hidden
+# macOS
+.DS_Store
